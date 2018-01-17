@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <meta charset="utf-8">
+    <title>Stress Test</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>STRESS LEVEL TEST</h1>
+      </div>
+      <div class="well">
+
+        <form id="stress_survey">
+        <div class="form-group">
+          <p>Check all that apply to you:</p>
+          <input type="checkbox" name="stress-factor" value="nail">Constant nail biting.<br>
+          <input type="checkbox" name="stress-factor" value="anxiety">Feelings of dread, hopelessness, or anxiety<br>
+          <input type="checkbox" name="stress-factor" value="sleep">Sleeping problems.<br>
+          <input type="checkbox" name="stress-factor" value="acne">Unexplainable acne breakouts.<br>
+          <input type="checkbox" name="stress-factor" value="food">Binge eating tendencies.<br>
+          <input type="checkbox" name="stress-factor" value="drug">Uncontrolled substance abuse.<br>
+        </div>
+        <div class="form-group">
+          <p>Check all the helath symptomps that apply to you:</p>
+          <input type="checkbox" name="health-symptoms" value="blood">High blood pressure.<br>
+          <input type="checkbox" name="health-symptoms" value="lifespan">Decreased life-span.<br>
+          <input type="checkbox" name="health-symptoms" value="teeth">Teeth grinding.<br>
+          <input type="checkbox" name="health-symptoms" value="heart">Heart attacks.<br>
+          <input type="checkbox" name="health-symptoms" value="hypertension">Hypertension.<br>
+        </div>
+        <button type="submit" class="button btn-lg">Submit</button>
+        </form>
+      </div>
+
+      <div class="well" id="output">
+        <h2><span id="stress_level"></span></h2>
+      <div>
+    </div>
+  </body>
+</html>

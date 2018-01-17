@@ -1,0 +1,33 @@
+body {
+  background: url(../img/bg.jpg);
+}
+
+h2 {
+  text-align: center;
+}
+
+#output {
+  display: none;
+}
+
+.container {
+  margin: auto;
+}
+
+.well {
+  width: 500px;
+  margin: auto;
+  font-size: 14pt;
+  background-color: #9ad3de;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: #1c1c1c;
+  color: #fff;
+}
+
+.btn-lg:hover {
+  color: #fff;
+  background-color: #9068be;
+}

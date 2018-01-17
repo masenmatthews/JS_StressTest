@@ -14,7 +14,9 @@ $(document).ready(function() {
       var surveyResults = $(this).val();
       userSymptomsResponses.push(surveyResults);
     });
-    if (userFactorsResponses.length >= 5 || userSymptomsResponses.length >= 4) {
+    if (userFactorsResponses.length === 6 && userSymptomsResponses.length === 5) {
+      $("#stress_level").text("You might be dying.");
+    } else if (userFactorsResponses.length >= 5 || userSymptomsResponses.length >= 4) {
       $("#stress_level").text("High stress");
     } else if (userFactorsResponses.length <= 2 && userSymptomsResponses.length <= 1) {
       $("#stress_level").text("Low stress");
